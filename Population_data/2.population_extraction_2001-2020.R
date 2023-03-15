@@ -8,7 +8,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("oracle_connection.R")
 
 # connect to CAS ----
-CASREF <- createConnection(sid = "CASREF01", username = "analysiseleanorbyrne",port =1523)
+CASREF <- createConnection(sid = "", username = "",port =)
 
 
 # Set years of interest ----
